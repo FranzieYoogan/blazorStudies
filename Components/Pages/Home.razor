@@ -1,0 +1,35 @@
+﻿@page "/"
+    @rendermode InteractiveServer
+<PageTitle>Home</PageTitle>
+
+<button type="button" @onclick="ChangeName">CLICK</button>
+
+
+<h1>CLICKS: @click</h1>
+<h1>NAME: @name</h1>
+
+
+
+
+
+
+@code {
+
+    private string name ="Aloi";
+    private int click = 0;
+    private void ChangeName() {
+        click ++;
+        name = "Franzie";
+
+        if(click == 1) {
+          
+            name ="Franzie";
+
+        } else if(click == 2) {
+            click = 0;
+            name ="Aloi";
+
+        }
+    }
+
+}

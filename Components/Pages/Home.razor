@@ -35,8 +35,9 @@
 
    @for(int x= 0; x<=10; x++) {
 
-<h1 class="h1Loop" style="@value">result: @result * @x</h1>
-
+        <div class="h1Loop" style="@value; @value2; @value3">
+<h1 class="h1Text" style="@value4; @value5">result: @result * @x</h1>
+</div>
 
 } 
 
@@ -67,18 +68,32 @@
     private int y = 0;
 
     private string value = "";
+    private string value2 = "";
+        private string value3 = "";
 
+              private string value4 = "";
+                      private string value5 = "";
     private int result = 2;
 
 
 
     private void changeCss() {
         click2 ++;
+           value4 = "opacity: 1; transition: 1s";
+           value2 = "transition: 1s";
         value = "visibility: visible";
+          
+       value3 = "height: 8%";
+
 
         if(click2 == 2) {
             click2 = 0;
-        value = "visibility: hidden";
+   value4 = "opacity: 0";
+   value5 = "transition: 0.5s";
+
+             value2 = "transition: 1s";
+       value3 = "height: 0%";
+            value = "visibility: hidden";
         }
 
     }

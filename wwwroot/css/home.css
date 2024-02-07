@@ -7,12 +7,13 @@
 
 .containerHome2 {
 
-
+    visibility: hidden;
+    height: 0%;
 
 }
 
-.h1Loop {
+.h1Text {
 
-    visibility: hidden;
+   opacity: 0;
 
 }

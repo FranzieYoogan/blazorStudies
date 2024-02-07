@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
+      "Id": "C:\\dotnet\\BlazorApp1\\wwwroot\\css\\home.css",
+      "PackagePath": "staticwebassets\\css\\home.css"
+    },
+    {
       "Id": "C:\\dotnet\\BlazorApp1\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },

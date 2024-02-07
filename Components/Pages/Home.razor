@@ -1,13 +1,59 @@
 ﻿@page "/"
     @rendermode InteractiveServer
+
+    <link rel="stylesheet" href="css/home.css">
 <PageTitle>Home</PageTitle>
 
-<button type="button" @onclick="ChangeName">CLICK</button>
+
+<section class="containerHome">
 
 
+
+        
+  
+
+    <section class="containerHome">
+
+       
+            
+      
+        <div>
+   
 <h1>CLICKS: @click</h1>
 <h1>NAME: @name</h1>
 
+    <button type="button" @onclick="ChangeName">CHANGE NAME</button> 
+</div>
+
+  
+
+
+  
+    <div>
+
+    <button type="button" @onclick="changeCss">INITIALIZE LOOP</button> 
+
+   @for(int x= 0; x<=10; x++) {
+
+<h1 class="h1Loop" style="@value">result: @result * @x</h1>
+
+
+} 
+
+
+
+</div>
+ 
+
+
+
+
+
+ 
+
+</section>
+
+  </section>
 
 
 
@@ -17,6 +63,27 @@
 
     private string name ="Aloi";
     private int click = 0;
+        private int click2 = 0;
+    private int y = 0;
+
+    private string value = "";
+
+    private int result = 2;
+
+
+
+    private void changeCss() {
+        click2 ++;
+        value = "visibility: visible";
+
+        if(click2 == 2) {
+            click2 = 0;
+        value = "visibility: hidden";
+        }
+
+    }
+
+    
     private void ChangeName() {
         click ++;
         name = "Franzie";

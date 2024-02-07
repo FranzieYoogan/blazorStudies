@@ -1,0 +1,18 @@
+.containerHome {
+
+    display: flex;
+    justify-content: center;
+    gap: 10em !important;
+}
+
+.containerHome2 {
+
+
+
+}
+
+.h1Loop {
+
+    visibility: hidden;
+
+}

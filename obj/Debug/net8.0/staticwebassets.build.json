@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "MNTrmKTQ8t1LZNghttuT1fnVZ0myBs2qHxR+sekGbxE=",
+  "Hash": "bS/zGX+ht2LfRUl555/kwYLkHYJKpl6ARk+DFHudnzk=",
   "Source": "BlazorApp1",
   "BasePath": "_content/BlazorApp1",
   "Mode": "Default",
@@ -110,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "C:\\dotnet\\BlazorApp1\\wwwroot\\css\\home.css",
+      "SourceId": "BlazorApp1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\dotnet\\BlazorApp1\\wwwroot\\",
+      "BasePath": "_content/BlazorApp1",
+      "RelativePath": "css/home.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\home.css"
     },
     {
       "Identity": "C:\\dotnet\\BlazorApp1\\wwwroot\\favicon.png",
